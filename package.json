@@ -1,0 +1,46 @@
+{
+  "name": "pnl-tracker",
+  "productName": "PnL Tracker",
+  "version": "1.0.0",
+  "description": "Open-source profit & loss tracker for Crypto and US Stocks",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.pnltracker.app",
+    "productName": "PnL Tracker",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*",
+      "node_modules/xlsx/dist/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "dependencies": {
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mr-lunatic999/pnl-tracker.git"
+  },
+  "keywords": [
+    "crypto",
+    "stocks",
+    "pnl",
+    "tracker",
+    "portfolio",
+    "electron"
+  ],
+  "allowScripts": {
+    "electron@33.2.1": true
+  }
+}
