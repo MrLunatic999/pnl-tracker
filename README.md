@@ -2,6 +2,7 @@
 
 Open-source profit & loss tracker for **Crypto** and **US Stocks**. Built with Electron.
 
+[![Download Setup](https://img.shields.io/badge/Download-Windows%20Setup-blue?style=for-the-badge&logo=windows)](https://github.com/MrLunatic999/pnl-tracker/releases/download/v1.0.0/PnL.Tracker.Setup.1.0.0.exe)
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
 ## Features
